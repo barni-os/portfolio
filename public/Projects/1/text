@@ -1,0 +1,4 @@
+referece projects like this 
+images: [BASE + "projects/1/tile-layout.jpg"],
+documents: [{ label: "Technical Report", file: BASE + "projects/1/report.pdf" }],
+videos: ["https://www.youtube.com/embed/YOUR_VIDEO_ID"],
