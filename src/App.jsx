@@ -8,7 +8,7 @@ import "./App.css";
 function Navbar() {
   return (
     <nav className="nav">
-      <Link to="/" className="nav__brand" style={{ textDecoration: "none", color: "var(--ink)" }}>P.H.k</Link>
+      <Link to="/" className="nav__brand" style={{ textDecoration: "none", color: "var(--ink)" }}>P.H.K.</Link>
       <div className="nav__links">
         <Link to="/" className="nav__link">Projects</Link>
         <Link to="/about" className="nav__link">About</Link>
