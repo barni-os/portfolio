@@ -14,7 +14,7 @@ export const projects = [
         images: [
             // Put image files in public/projects/1/ and list them here
             // e.g. BASE + "projects/1/tile-layout.jpg"
-            BASE + "Projects/1/closedloop.jpg"
+            BASE + "projects/1/closedloop.jpg"
         ],
         videos: [
             // Paste YouTube embed URLs here
