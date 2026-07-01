@@ -9,7 +9,7 @@ function About() {
       {/* Page header */}
       <div className="titleblock" style={{ marginBottom: "2.5rem" }}>
         <p className="titleblock__eyebrow">About Me</p>
-        <h1 className="titleblock__name" style={{ fontSize: "clamp(2rem, 6vw, 4rem)" }}>
+        <h1 className="titleblock__name" style={{ fontSize: "clamp(2rem, 6vw, 4rem)" , color : "var(--ink)"}}>
           Pranay<br />[HK]
         </h1>
         <div className="titleblock__meta">
