@@ -23,7 +23,7 @@ export const projects = [
         documents: [
             // Put PDFs in public/projects/1/ and list them here
             // e.g. { label: "Technical Report", file: BASE + "projects/1/report.pdf" }
-            {label: "Technical report", file: BASE + "projects/1/technical-report.pdf"}
+            {label: "Technical report", file: BASE + "projects/1/technical-reportv3.pdf"}
 
         ],
     },
