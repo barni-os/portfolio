@@ -14,6 +14,7 @@ export const projects = [
         images: [
             // Put image files in public/projects/1/ and list them here
             // e.g. BASE + "projects/1/tile-layout.jpg"
+            BASE + "Projects/1/closedloop.jpg"
         ],
         videos: [
             // Paste YouTube embed URLs here
@@ -23,7 +24,7 @@ export const projects = [
             // Put PDFs in public/projects/1/ and list them here
             // e.g. { label: "Technical Report", file: BASE + "projects/1/report.pdf" }
             {label: "technical report", file: BASE + "projects/1/reportmtrn4066.pdf"}
-            
+
         ],
     },
     {
