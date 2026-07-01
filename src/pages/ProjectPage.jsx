@@ -92,7 +92,7 @@ function ProjectPage() {
           <h2 className="section__title">Documents</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {documents.map((doc, i) => (
-              <a key={i} href={doc.file} target="_blank" rel="noopener noreferrer" className="project__doc">
+              <a key={i} href={doc.file} download target="_blank" rel="noopener noreferrer" className="project__doc">
                 <span className="project__doc-icon">PDF</span>
                 <span>{doc.label}</span>
                 <span style={{ marginLeft: "auto" }}>↓ Download</span>
