@@ -86,21 +86,24 @@ function ProjectPage() {
         </section>
       )}
 
-      {/* Documents */}
       {documents.length > 0 && (
-        <section className="section">
-          <h2 className="section__title">Documents</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
-            {documents.map((doc, i) => (
-              <a key={i} href={doc.file} download target="_blank" rel="noopener noreferrer" className="project__doc">
-                <span className="project__doc-icon">PDF</span>
-                <span>{doc.label}</span>
-                <span style={{ marginLeft: "auto" }}>↓ Download</span>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
+  <section className="section">
+    <h2 className="section__title">Documents</h2>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+      {documents.map((doc, i) => (
+        <div key={i}>
+          <p className="about__skill-label" style={{ marginBottom: "0.5rem" }}>{doc.label}</p>
+          <iframe
+            src={`https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(doc.file)}`}
+            width="100%"
+            height="600px"
+            style={{ border: "1px solid var(--line)" }}
+          />
+        </div>
+      ))}
+    </div>
+  </section>
+)}
 
     </div>
   );
